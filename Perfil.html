@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+       
+    <style>
+        body{
+            background-color: rgb(207, 85, 132);
+            font-family: Arial, Helvetica, sans-serif;
+            color: aliceblue;/*color de letras*/
+            text-align: center;
+        }
+        .perfil{
+            margin: 20% auto;
+            width: 80%;
+            max-width: 600px;
+            background-color: rgb(207, 168, 173);
+            padding: 20px;
+            box-shadow: 0 10px 10px black ;
+        }
+        .foto-perfil{
+            width: 150px;
+            height: auto;
+            border-radius: 50% ;
+            color: rgb(0, 0, 0);
+            margin: 0 auto;
+            display: block;
+        }
+    </style>
+    <div class="perfil">
+        <img src="c:\Users\ADMIN\Downloads\WhatsApp Image 2024-03-08 at 3.52.10 AM.jpeg" alt="Foto de perfil" class="foto-perfil">
+        <h1 id="Nombre:">Kenia Itzel Cruz Ramirez</h1>
+        <p id="Formacion:">Preparatoria: CETis No.131</p>
+        <h2>Gustos: Escuchar musica, ver peliculas y series </h2>
+    </div>
+    <script>
+        document.addEventListener("DomContentLoaded", function(){
+            document.getElementById("Nombre"),
+            textContent="Kenia Itzel Cruz Ramirez";
+            document.getElementById("Formacion"), textContent="Preparatoria";
+        })
+    </script>
+</body>
+</html>
